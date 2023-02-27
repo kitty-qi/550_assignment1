@@ -1,4 +1,4 @@
-# DSCI550_assignment1
+# 550_assignment1
 dsci550_assignment1 
 
 This repository is the first assignment for the DSCI 550 class  
