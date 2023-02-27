@@ -1,8 +1,8 @@
 # DSCI550_assignment1
 dsci550_assignment1 
 
-This repository is the first assignment for the final project in the DSCI 510 class  
-Included in this documentation are all of the necessary parts that grading is going to be based on  
+This repository is the first assignment for the DSCI 550 class  
+
 
 # Dependencies
 
@@ -39,21 +39,21 @@ pip install -r requirements.txt
 Typically, a single file is called to run the project (something along the lines of)  
 
 ```
-python final.py
+python xxxxx.py
+or jupyter notebook
 ```
 
 # Methodology
 
-> What kind of analyses or visualizations did you do? (Similar to Homework 2 Q3, but now you should answer based on your progress, rather than just your plan)  
+>   
 
 
 # Visualization
 
 - which visualization methods did we use
-- why did we chose this particular way of visualizing data
 - what insights are revealed through the means of this visualization
 
-> [Bonus] Did you do any advanced visualizations? Briefly describe how you do it, and why it’s a great visualization  
+ 
 
 # Future Work
 
