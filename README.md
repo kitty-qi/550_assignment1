@@ -8,14 +8,23 @@ Included in this documentation are all of the necessary parts that grading is go
 
 > A list of all of the dependencies used, included their version number  
 ```
-matplotlib==3.6.2
-numpy==1.23.3
-pandas==1.5.0
-plotly==5.11.0
-requests==2.27.1
-scipy==1.9.3
-seaborn==0.12.1
-statsmodels==0.13.5
+editdistance==0.5.3
+elasticsearch==8.6.2
+Flask==1.1.2
+jellyfish==0.9.0
+nltk==3.4.5
+numpy==1.21.5
+pandas==1.4.4
+Pillow==9.4.0
+pytesseract==0.3.10
+requests==2.23.0
+scikit_learn==1.2.1
+scipy==1.7.3
+simplejson==3.18.3
+SolrClient==0.3.1
+stemming==1.0.1
+tika==1.23.1
+
 ```
 # Installation
 
