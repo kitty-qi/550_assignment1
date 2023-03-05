@@ -1,7 +1,7 @@
 # 550_assignment1
 dsci550_assignment1 
 
-This is the first assignment from the DSCI 550 class. This assignment is collaborated and completed by Team 3. 
+This is the first assignment from the DSCI 550 class. This assignment is collaborated and completed by Team 3. <br>
 Team menbers: Jimin Ding, Mingyu Zong, Hui Qi, Xiaoyu Dong
 
 
