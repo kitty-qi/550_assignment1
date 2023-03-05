@@ -1,7 +1,8 @@
 # 550_assignment1
 dsci550_assignment1 
 
-This repository is the first assignment for the DSCI 550 class  
+This is the first assignment from the DSCI 550 class. This assignment is collaborated and completed by Team 3. 
+Team menbers: Jimin Ding, Mingyu Zong, Hui Qi, Xiaoyu Dong
 
 
 # Dependencies
@@ -17,6 +18,7 @@ numpy==1.21.5
 pandas==1.4.4
 Pillow==9.4.0
 pytesseract==0.3.10
+python_Levenshtein==0.20.9
 requests==2.23.0
 scikit_learn==1.2.1
 scipy==1.7.3
@@ -37,13 +39,21 @@ pip install -r requirements.txt
 # Running the project
 
 ```
-python xxxxx.py
-or jupyter notebook
+add_film.py
+sarcasm_token.py
+add_hatespeech.py
+add_sarcasm.py
+
 ```
 
 # Methodology
 
->   
+Q5: Add and expand the dataset with sporting events, film festivals, flag for hate speech, and lag for sarcasm<br>
+> We have the film and sports events period from film_date.txt and sport_date.txt. If a user makes a post (Account Created Date) during these periods, our columns "Film" and "Sport" will enter the name of those events from film_name.txt and sport_name.txt. <br>
+
+Q6: Identify at least three other datasets, each of different top level MIME type
+>
+
 
 
 # Visualization
