@@ -50,6 +50,10 @@ add_sarcasm.py
 
 Q5: Add and expand the dataset with sporting events, film festivals, flag for hate speech, and lag for sarcasm<br>
 > We have the film and sports events period from film_date.txt and sport_date.txt. If a user makes a post (Account Created Date) during these periods, our columns "Film" and "Sport" will enter the name of those events from film_name.txt and sport_name.txt. <br>
+> 
+> We have a list of words in hatespeech.txt to help detect hate speech in our posts. If the title and narrative of the post have more than two marked words in the hatespeech.txt, this post will be flagged as hate speech and shown as "TRUE" in the "ifHate" column in our dataset. The list of words is from the ADL Hate Symbol Database. (https://www.adl.org/resources/hate-symbols/search?keywords=&sort_by=title&page=2) <br>
+>
+> 
 
 Q6: Identify at least three other datasets, each of different top level MIME type
 >
