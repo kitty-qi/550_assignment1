@@ -60,7 +60,10 @@ Levenshtein.ratio
 ``` 
 
 Q6: Identify at least three other datasets, each of different top level MIME type
-> 
+Our 
+image/png
+application/api+json
+application/zip
 
 
 
