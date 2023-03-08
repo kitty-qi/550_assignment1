@@ -45,6 +45,18 @@ add_hatespeech.py
 add_sarcasm.py
 
 ```
+In the Q2_image_code folder, open Q2_time.ipynb will show the code to visualize feature of users' post time of a day.
+```
+Q2_time.ipynb
+```
+In the Q3_image_code folder, open Q3_genders_ages_interests.ipynb will show the code to visualize features among users' interests, genders, and ages.
+```
+Q3_genders_ages_interests.ipynb
+```
+In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipynb will show the code to visualize users' distribution from narratives' language identification.
+```
+Q6_Language_Indentification.ipynb
+```
 
 # Methodology
 
