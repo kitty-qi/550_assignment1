@@ -91,6 +91,7 @@ If the post date is a holiday, we will input the name of that holiday into its c
 > We extract the zip file (owid-covid-data.zip), unzip it, and get csv file for the covid condition. It represents users' interest in health and politics. Cov_cases, cov_deaths, cov_tests, and cov_vaccinations stand for the number of cases, deaths, tests, and vaccinations in a day globally.
 
 #### Q7: Tika-Similarity
+Follow instructions on https://github.com/chrismattmann/tika-similarity
 
 
 
