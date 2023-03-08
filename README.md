@@ -82,10 +82,13 @@ Our three other datasets have following MIME types:
 - image/png
 > We find and download three images of positive words (pos1.png, pos2.png, pos3.png). <br>
 We import Tesseract to extract text from images and compare them with narratives. We store "TRUE" or "FALSE" depending on whether posts have positive words in these three images in columns Postive Words 1, Postive Words 2, and Postive Words 3.
+
 - application/api+json
-> We use a public holiday api to find wheter the date of the post is a holiday in each continent or not. We use request library to parse api response. (EU_holiday for Europe, AM_holiday for Americas, AS_holiday for Asia, AF_holiday for Africa, and OC_holiday for Oceania holiday names). Holiday for is the date a global public holiday or not.
+> We use a public holiday API to find whether the date of the post is a holiday in each continent or not. We use the request library to parse API responses. (EU_holiday is shortened for Europe; AM_holiday is shortened for Americas; AS_holiday  is shortened for Asia; AF_holiday  is shortened for Africa; OC_holiday is shortened for Oceania holiday names). <br>
+If the post date is a holiday, we will input the name of that holiday into its correct position in one of the following columns: Europe Holiday, Americas Holiday, Asia Holiday, Africa Holiday, and Oceania Holiday. And also, enter "TRUE" into Public Holiday Or Not. We will enter "False" into Public Holiday Or Not if it is not a holiday.
+
 - application/zip
-> We extract zip file, unzip it and get csv file for covid condition. It represents users' interest on health and politics. Cov_cases, cov_deaths, cov_tests, cov_vaccinations stand for numbers of cases, deaths, tests, and vaccinations in a day globally.
+> We extract the zip file (owid-covid-data.zip), unzip it, and get csv file for the covid condition. It represents users' interest in health and politics. Cov_cases, cov_deaths, cov_tests, and cov_vaccinations stand for the number of cases, deaths, tests, and vaccinations in a day globally.
 
 #### Q7: Tika-Similarity
 
