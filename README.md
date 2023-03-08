@@ -94,10 +94,4 @@ If the post date is a holiday, we will input the name of that holiday into its c
 
 
 
-# Visualization
-
-- which visualization methods did we use
-- what insights are revealed through the means of this visualization
-
- 
 
