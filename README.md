@@ -64,7 +64,7 @@ Q6_Language_Indentification.ipynb
 
 # Methodology
 
-#### Q5: Add and expand the dataset with sporting events, film festivals, flag for hate speech, and lag for sarcasm
+#### Q5: Add and expand the dataset with sporting events, film festivals, flag for hate speech, and flag for sarcasm
 
 We have the film and sports events period from film_date.txt and sport_date.txt. If a user makes a post (Account Created Date) during these periods, our columns "Film" and "Sport" will enter the name of those events from film_name.txt and sport_name.txt. 
  
