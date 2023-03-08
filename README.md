@@ -45,6 +45,11 @@ add_hatespeech.py
 add_sarcasm.py
 
 ```
+
+```
+3 MIME type.ipynb
+```
+
 In the Q2_image_code folder, open Q2_time.ipynb will show the code to visualize feature of users' post time of a day.
 ```
 Q2_time.ipynb
@@ -60,7 +65,7 @@ Q6_Language_Indentification.ipynb
 
 # Methodology
 
-Q5: Add and expand the dataset with sporting events, film festivals, flag for hate speech, and lag for sarcasm
+#### Q5: Add and expand the dataset with sporting events, film festivals, flag for hate speech, and lag for sarcasm
 
 We have the film and sports events period from film_date.txt and sport_date.txt. If a user makes a post (Account Created Date) during these periods, our columns "Film" and "Sport" will enter the name of those events from film_name.txt and sport_name.txt. 
  
@@ -71,17 +76,18 @@ We have a list of words in hatespeech.txt to help detect hate speech in our post
 Levenshtein.ratio
 ``` 
 
-Q6: Identify at least three other datasets, each of different top level MIME type
+#### Q6: Identify at least three other datasets, each of different top level MIME type
 
 Our three other datasets have following MIME types:
-- image/png:
-> We find and download three images of positive words. We import Tesseract to extract text from images and compare with narratives. We store whether posts have positive words or not in image 1, 2, and 3 in pos1, pos2, and pos3.
+- image/png
+> We find and download three images of positive words (pos1.png, pos2.png, pos3.png). <br>
+We import Tesseract to extract text from images and compare them with narratives. We store "TRUE" or "FALSE" depending on whether posts have positive words in these three images in columns Postive Words 1, Postive Words 2, and Postive Words 3.
 - application/api+json
 > We use a public holiday api to find wheter the date of the post is a holiday in each continent or not. We use request library to parse api response. (EU_holiday for Europe, AM_holiday for Americas, AS_holiday for Asia, AF_holiday for Africa, and OC_holiday for Oceania holiday names). Holiday for is the date a global public holiday or not.
 - application/zip
 > We extract zip file, unzip it and get csv file for covid condition. It represents users' interest on health and politics. Cov_cases, cov_deaths, cov_tests, cov_vaccinations stand for numbers of cases, deaths, tests, and vaccinations in a day globally.
 
-Q7: Tika-Similarity
+#### Q7: Tika-Similarity
 
 
 
