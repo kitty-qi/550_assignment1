@@ -20,7 +20,7 @@ Wrote readme.md
 
 Xiaoyu Dong
 > Took charge for step 6 (add three other datasets with different MIME types)<br>
-Wrote codes and answers for questions 1, 5 in the report<br>
+Wrote codes and answers for added datasets, unintended consequences, questions 5 in the report<br>
 
 
 
