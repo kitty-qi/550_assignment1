@@ -76,6 +76,10 @@ In the Q3_image_code folder, open Q3_genders_ages_interests.ipynb will show the 
 ```
 Q3_genders_ages_interests.ipynb
 ```
+Run the following file in the Step5 folder to draw graphs for answers in report question 4.
+```
+Hatespeech_Age & Gender.py
+```
 In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipynb will show the code to visualize users' distribution from narratives' language identification. This is the answer towards report question 6.
 ```
 Q6_Language_Indentification.ipynb
