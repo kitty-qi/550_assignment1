@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ```
 
 ## Running the project
-
+Run the following 4 files in the Step5 folder to add flim, sport, ifHate, ifSarcasm features in combine.csv, and integrate the result into combine_after5.csv.
 ```
 add_film.py
 sarcasm_token.py
@@ -64,7 +64,7 @@ add_hatespeech.py
 add_sarcasm.py
 
 ```
-
+In MIME datasets folder, 3 MIME type.ipynb imports combine_after5.csv (Pixstory dataset with step 5 features), exports combine_final.csv (Pixstory dataset with both step 5 and 6 features), and draws graphs to answer report questions. Images of positive words and zip file of covid data are also in the folder.
 ```
 3 MIME type.ipynb
 ```
