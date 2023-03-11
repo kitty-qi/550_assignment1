@@ -10,7 +10,7 @@ Jimin Ding
 Mingyu Zong
 
 Hui Qi : 
-> wrote codes and answers of questions 2, 3, 6 in the report<br>
+> wrote codes and answers for questions 2, 3, 6 in the report<br>
 wrote readme.md
 
 Xiaoyu Dong
