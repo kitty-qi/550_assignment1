@@ -3,8 +3,20 @@
 This is the first assignment from the DSCI 550 class. This assignment is collaborated and completed by Team 3. <br>
 Team menbers: Jimin Ding, Mingyu Zong, Hui Qi, Xiaoyu Dong
 
+## Group Assignment Allocation
+Jimin Ding
 
-# Dependencies
+
+Mingyu Zong
+
+Hui Qi : 
+> wrote codes and answer questions 2, 3, 5 in the report<br>
+wrote readme.md
+
+Xiaoyu Dong
+
+
+## Dependencies
 
 > A list of all of the dependencies used, included their version number  
 ```
@@ -27,7 +39,7 @@ stemming==1.0.1
 tika==1.23.1
 
 ```
-# Installation
+## Installation
 
 Install the requirements necessary to run your project:  
 
@@ -35,7 +47,7 @@ Install the requirements necessary to run your project:
 pip install -r requirements.txt
 ```
 
-# Running the project
+## Running the project
 
 ```
 add_film.py
@@ -62,7 +74,7 @@ In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipyn
 Q6_Language_Indentification.ipynb
 ```
 
-# Methodology
+## Methodology
 
 #### Q5: Add and expand the dataset with sporting events, film festivals, flag for hate speech, and flag for sarcasm
 
