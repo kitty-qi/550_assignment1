@@ -4,14 +4,16 @@ This is the first assignment from the DSCI 550 class. This assignment is collabo
 Team menbers: Jimin Ding, Mingyu Zong, Hui Qi, Xiaoyu Dong
 
 ## Group Assignment Allocation
-Jimin Ding
-
+Jimin Ding：
+> Took charge for step 5 (add sports, films, ifHate, ifScarcasm features)<br>
+Wrote codes and answers for questions4  in the report<br>
+Wrote readme.md
 
 Mingyu Zong
 
-Hui Qi : 
-> wrote codes and answers for questions 2, 3, 6 in the report<br>
-wrote readme.md
+Hui Qi： 
+> Wrote codes and answers for questions 2, 3, 6 in the report<br>
+Wrote readme.md
 
 Xiaoyu Dong
 
