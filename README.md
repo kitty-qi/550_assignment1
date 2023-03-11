@@ -62,7 +62,6 @@ add_film.py
 sarcasm_token.py
 add_hatespeech.py
 add_sarcasm.py
-
 ```
 In MIME datasets folder, 3 MIME type.ipynb imports combine_after5.csv (Pixstory dataset with step 5 features), exports combine_final.csv (Pixstory dataset with both step 5 and 6 features), and draws graphs to answer report questions 1 and 5. Images of positive words and zip file of covid data are also in the folder.
 ```
