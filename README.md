@@ -4,18 +4,24 @@ This is the first assignment from the DSCI 550 class. This assignment is collabo
 Team menbers: Jimin Ding, Mingyu Zong, Hui Qi, Xiaoyu Dong
 
 ## Group Assignment Allocation
-Jimin Ding：
+Jimin Ding
 > Took charge for step 5 (add sports, films, ifHate, ifScarcasm features)<br>
-Wrote codes and answers for questions4  in the report<br>
+Wrote codes and answers for questions 4 in the report<br>
 Wrote readme.md
 
 Mingyu Zong
+> Took charge for step 7 (Tika-Similarity)<br>
+Took charge for step 8 (Package data)<br>
+Wrote codes and answers for questions 7 in the report<br>
 
-Hui Qi： 
+Hui Qi 
 > Wrote codes and answers for questions 2, 3, 6 in the report<br>
 Wrote readme.md
 
 Xiaoyu Dong
+> Took charge for step 6 (add three other datasets with different MIME types)<br>
+Wrote codes and answers for questions 1, 5 in the report<br>
+
 
 
 ## Dependencies
