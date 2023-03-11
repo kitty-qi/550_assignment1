@@ -10,7 +10,7 @@ Jimin Ding
 Mingyu Zong
 
 Hui Qi : 
-> wrote codes and answer questions 2, 3, 5 in the report<br>
+> wrote codes and answers of questions 2, 3, 6 in the report<br>
 wrote readme.md
 
 Xiaoyu Dong
@@ -18,7 +18,7 @@ Xiaoyu Dong
 
 ## Dependencies
 
-> A list of all of the dependencies used, included their version number  
+A list of all of the dependencies used, included their version number  
 ```
 editdistance==0.5.3
 elasticsearch==8.6.2
@@ -41,7 +41,7 @@ tika==1.23.1
 ```
 ## Installation
 
-Install the requirements necessary to run your project:  
+Install the requirements necessary to run this project:  
 
 ```
 pip install -r requirements.txt
