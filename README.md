@@ -64,20 +64,20 @@ add_hatespeech.py
 add_sarcasm.py
 
 ```
-In MIME datasets folder, 3 MIME type.ipynb imports combine_after5.csv (Pixstory dataset with step 5 features), exports combine_final.csv (Pixstory dataset with both step 5 and 6 features), and draws graphs to answer report questions. Images of positive words and zip file of covid data are also in the folder.
+In MIME datasets folder, 3 MIME type.ipynb imports combine_after5.csv (Pixstory dataset with step 5 features), exports combine_final.csv (Pixstory dataset with both step 5 and 6 features), and draws graphs to answer report questions 1 and 5. Images of positive words and zip file of covid data are also in the folder.
 ```
 3 MIME type.ipynb
 ```
 
-In the Q2_image_code folder, open Q2_time.ipynb will show the code to visualize feature of users' post time of a day.
+In the Q2_image_code folder, open Q2_time.ipynb will show the code to visualize feature of users' post time of a day. This is the answer towards report question 2.
 ```
 Q2_time.ipynb
 ```
-In the Q3_image_code folder, open Q3_genders_ages_interests.ipynb will show the code to visualize features among users' interests, genders, and ages.
+In the Q3_image_code folder, open Q3_genders_ages_interests.ipynb will show the code to visualize features among users' interests, genders, and ages. This is the answer towards report question 3.
 ```
 Q3_genders_ages_interests.ipynb
 ```
-In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipynb will show the code to visualize users' distribution from narratives' language identification.
+In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipynb will show the code to visualize users' distribution from narratives' language identification. This is the answer towards report question 6.
 ```
 Q6_Language_Indentification.ipynb
 ```
