@@ -70,6 +70,7 @@ We have the film and sports events period from film_date.txt and sport_date.txt.
  
 We have a list of words in hatespeech.txt to help detect hate speech in our posts. If the title and narrative of the post have more than two marked words in the hatespeech.txt, this post will be flagged as hate speech and shown as "TRUE" in the "ifHate" column in our dataset. The list of words is from the ADL Hate Symbol Database.  
 
+We have a list of 'sarcasm.txt' from the database Sarcasm_v2, and we compiled a list of 100 woords that appeared most frequently in these ironic sentences, such as you, me, etc. These commonly used words can negatively affect the similarity of two sentences. Then we removed the 100 words (buzz) for the sentence in 'scarasm.txt' to form the new document 'sarcasm_clear.txt'. Finally, we compared the title and narritive parts of each post with each sentence for 'sarcasm_clear.txt', using Levenshtein.ratio. If the similarity of a post exceeds 0.7 (the maximum is 1), it is considered containing sarcasm, and this post will be flagged as "TRUE" in the "ifSarcasm" column in our dataset.
 
 ``` 
 Levenshtein.ratio
