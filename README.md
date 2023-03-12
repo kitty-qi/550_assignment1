@@ -45,7 +45,6 @@ simplejson==3.18.3
 SolrClient==0.3.1
 stemming==1.0.1
 tika==1.23.1
-
 ```
 ## Installation
 
