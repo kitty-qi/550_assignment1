@@ -68,6 +68,23 @@ In MIME datasets folder, 3 MIME type.ipynb imports combine_after5.csv (Pixstory 
 3 MIME type.ipynb
 ```
 
+The following script in the Step7 folder is used to convert the TSV with 95k rows into smaller batches of json files, each bacth has 100 instances.
+```
+split.py
+```
+After split, use these three files in tika-similarity to compute Jaccard, Edit-Distance, and Cosine similarity scores for each batch correspondingly.
+```
+jaccard_similarity.py
+edit-value-similarity.py
+cosine_similarity.py
+```
+With calculated simiarity scores, run the following files to generate circle.json, clusters.json, and levelCluster.json, which are needed for D3 visualizations.
+```
+edit-cosine-circle-packing.py
+edit-cosine-cluster.py
+generateLevelCluster.py
+```
+
 In the Q2_image_code folder, open Q2_time.ipynb will show the code to visualize feature of users' post time of a day. This is the answer towards report question 2.
 ```
 Q2_time.ipynb
@@ -83,22 +100,6 @@ Hatespeech_Age & Gender.py
 In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipynb will show the code to visualize users' distribution from narratives' language identification. This is the answer towards report question 6.
 ```
 Q6_Language_Indentification.ipynb
-```
-The following script it used to convert the TSV with 95k rows into smaller batches of json files, each bacth has 100 instances.
-```
-split.py
-```
-After split, use these three files in tika-similarity to compute Jaccard, Edit-Distance, and Cosine similarity scores for each batch correspondingly.
-```
-jaccard_similarity.py
-edit-value-similarity.py
-cosine_similarity.py
-```
-With calculated simiarity scores, run the following files to generate circle.json, clusters.json, and levelCluster.json, which are needed for D3 visualizations.
-```
-edit-cosine-circle-packing.py
-edit-cosine-cluster.py
-generateLevelCluster.py
 ```
 
 ## Methodology
