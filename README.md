@@ -15,7 +15,7 @@ Took charge for step 8 (Package data)<br>
 Wrote codes and answers for questions 1, 7 in the report<br>
 
 Hui Qi 
-> Wrote codes and answers for questions 2, 3, 6 in the report<br>
+> Wrote codes and answers for questions 2, 3, 6，7 in the report<br>
 Wrote readme.md
 
 Xiaoyu Dong
