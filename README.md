@@ -12,7 +12,8 @@ Wrote readme.md
 Mingyu Zong
 > Took charge for step 7 (Tika-Similarity)<br>
 Took charge for step 8 (Package data)<br>
-Wrote codes and answers for questions 1, 7 in the report<br>
+Wrote codes and answers for questions 1 in the report<br>
+Wrote answers towards thoughts about Apache Tika
 
 Hui Qi 
 > Wrote codes and answers for questions 2, 3, 6, 7 in the report<br>
