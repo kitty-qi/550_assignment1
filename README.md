@@ -84,6 +84,22 @@ In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipyn
 ```
 Q6_Language_Indentification.ipynb
 ```
+The following script it used to convert the TSV with 95k rows into smaller batches of json files, each bacth has 100 instance.
+```
+split.py
+```
+After split, use these three files in tika-similarity to compute Jaccard, Edit-Distance, and Cosine similarity scores for each batch correspondingly.
+```
+jaccard_similarity.py
+edit-value-similarity.py
+cosine_similarity.py
+```
+With calculated simiarity scores, run the following files to generate circle.json, clusters.json, and levelCluster.json, which are needed for D3 visualizations.
+```
+edit-cosine-circle-packing.py
+edit-cosine-cluster.py
+generateLevelCluster.py
+```
 
 ## Methodology
 
@@ -114,7 +130,7 @@ If the post date is a holiday, we will input the name of that holiday into its c
 > We extract the zip file (owid-covid-data.zip), unzip it, and get csv file for the covid condition. It represents users' interest in health and politics. Cov_cases, cov_deaths, cov_tests, and cov_vaccinations stand for the number of cases, deaths, tests, and vaccinations in a day globally.
 
 #### Q7: Tika-Similarity
-Follow instructions on https://github.com/chrismattmann/tika-similarity
+Follow instructions on https://github.com/chrismattmann/tika-similarity and Professor's proposed workflow posted on Slack.
 
 
 
