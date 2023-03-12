@@ -84,7 +84,7 @@ In the Q6_Language_Indentification folder, open Q6_Language_Indentification.ipyn
 ```
 Q6_Language_Indentification.ipynb
 ```
-The following script it used to convert the TSV with 95k rows into smaller batches of json files, each bacth has 100 instance.
+The following script it used to convert the TSV with 95k rows into smaller batches of json files, each bacth has 100 instances.
 ```
 split.py
 ```
