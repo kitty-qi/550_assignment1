@@ -6,7 +6,7 @@ Team menbers: Jimin Ding, Mingyu Zong, Hui Qi, Xiaoyu Dong
 ## Group Assignment Allocation
 Jimin Ding
 > Took charge for step 5 (add sports, films, ifHate, ifScarcasm features)<br>
-Wrote codes and answers for questions 4 in the report<br>
+Wrote codes and answers for questions 4, 5 in the report<br>
 Wrote readme.md
 
 Mingyu Zong
